@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+    <div class="row">
+{% for article in object_list %}
+
+    <div class = "col-sm-4">
+        <a href="{% url 'detail' article.id %}"><img id="img-all" src="/media/{{ article.upload_img }}">
+        <div class="info">
+        <a href="{% url 'detail' article.id %}">{{ article.title }}</a>
+        <p>price: {{ article.price }}$</p>
+    </div>
+    </div>
+
+{% endfor %}
+</div>
+{% endblock %}

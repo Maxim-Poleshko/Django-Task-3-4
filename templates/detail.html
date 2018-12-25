@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block title %}
+    {{ article.title }}
+{% endblock %}
+
+{% block content %}
+<div class="detail-page">
+    <div class="row">
+    <div class="col-sm-6 img-class">
+        <img id="img-detail" src="/media/{{ object.upload_img }}">
+    </div>
+    <div class="info-detail col-sm-6">
+        <p>ID: {{ article.id }}</p>
+        <p>Title: {{ article.title }}</p>
+        <p>Description: {{ article.description }}</p>
+        <p>Price: {{ article.price }}$</p>
+    </div>
+</div>
+{% endblock %}
