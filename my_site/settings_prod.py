@@ -25,12 +25,16 @@ SECRET_KEY = 'ka$t!q#@t8s25g2i!#kk2j&9_qro%1hjrrxnn^+jyleho0l^a('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '192.168.0.105', '192.168.0.115', 'poleshkomaxim1234.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '192.168.0.105', '192.168.0.115', 'poleshkomaxim.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'photologue',
+    'sortedm2m',
+    'sorl.thumbnail',
+    'django_instagram',
     'GoodsStore.apps.GoodsstoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,7 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -55,10 +63,11 @@ ROOT_URLCONF = 'my_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.request',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -120,7 +129,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+if not DEBUG:
+    STATIC_ROOT = '/var/www/staticfiles/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static/'),
