@@ -1,4 +1,5 @@
 {% extends 'layout.html' %}
+
 {% block title %}
     {{ article.title }}
 {% endblock %}
@@ -15,5 +16,9 @@
         <p>Description: {{ article.description }}</p>
         <p>Price: {{ article.price }}$</p>
     </div>
+
+        <hr>
+            <a href="{% url 'update_detail' article.id %}">Update</a>
+            <a href="{% url 'article_delete' article.id %}">Delete</a>
 </div>
 {% endblock %}

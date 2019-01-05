@@ -14,8 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from GoodsStore.views import IndexView, ArticleDetailView, ArticleCreateView, ArticleView
+from django.urls import path, include
+from GoodsStore.views import IndexView, ArticleDetailView, ArticleCreateView, ArticleView, ArticleUpdate, ArticleDelete
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -24,5 +24,8 @@ urlpatterns = [
     path('', IndexView.as_view(), name='index'),
     path('article/<int:pk>', ArticleDetailView.as_view(), name='detail'),
     path('article/', ArticleView.as_view(), name='detail_all'),
-    path('article/add', ArticleCreateView.as_view(), name='add_article'),
+    path('add_article/', ArticleCreateView.as_view(), name='add_article'),
+    path('article/update/<int:pk>', ArticleUpdate.as_view(), name='update_detail'),
+    path('article/delete/<int:pk>', ArticleDelete.as_view(), name='article_delete'),
+    path('gallery/', include('photologue.urls', namespace='photologue')),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -31,6 +31,10 @@ ALLOWED_HOSTS = ['localhost', '192.168.0.105', '192.168.0.115']
 # Application definition
 
 INSTALLED_APPS = [
+    'photologue',
+    'sortedm2m',
+    'sorl.thumbnail',
+    'django_instagram',
     'GoodsStore.apps.GoodsstoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,7 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -59,6 +67,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.request',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',

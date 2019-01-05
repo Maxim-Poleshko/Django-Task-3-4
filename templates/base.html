@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--&lt;!&ndash; Bootstrap &ndash;&gt;-->
+		<!--<link href="{% static '/photologue/gallery/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">-->
+		<!--<link href="{% static '/photologue/gallery/css/screen.css' %}" rel="stylesheet" media="screen">-->
+	    <!--&lt;!&ndash; HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries &ndash;&gt;-->
+	    <!--&lt;!&ndash;[if lt IE 9]>-->
+	      <!--<script src="{% static '/photologue/gallery/js/html5shiv.min.js' %}"></script>-->
+	      <!--<script src="{% static '/photologue/gallery/js/respond.min.js' %}"></script>-->
+	    <!--<![endif]&ndash;&gt;-->
+    </head>
+    <body>
+
+	{% include 'navbar/navbar.html' %}
+
+    	<div class="container">
+        	{% block content %}{% endblock %}
+        </div>
+        <!--<script src="{% static '/photologue/gallery/js/jquery.js' %}"></script>-->
+        <!--<script src="{% static '/photologue/gallery/js/bootstrap.min.js' %}"></script>-->
+		<!--<script src="{% static '/photologue/gallery/js/project.js' %}"></script>-->
+    </body>
+</html>

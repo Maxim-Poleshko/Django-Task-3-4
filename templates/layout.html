@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'style.css'%}">
+    <!-- Bootstrap -->
+    <link href="{% static '/photologue/gallery/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+    <link href="{% static '/photologue/gallery/css/screen.css' %}" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="{% static '/photologue/gallery/js/html5shiv.min.js' %}"></script>
+    <script src="{% static '/photologue/gallery/js/respond.min.js' %}"></script>
+    <![endif]-->
 
     <title>{% block title %}{% endblock %}</title>
 </head>
@@ -20,6 +27,8 @@
     {% endblock %}
 
 </div>
-
+<script src="{% static '/photologue/gallery/js/jquery.js' %}"></script>
+<script src="{% static '/photologue/gallery/js/bootstrap.min.js' %}"></script>
+<script src="{% static '/photologue/gallery/js/project.js' %}"></script>
 </body>
 </html>

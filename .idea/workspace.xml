@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e1afcb-dd0c-4d57-8543-afa32052d258" name="Default Changelist" comment="" />
+    <list default="true" id="46e1afcb-dd0c-4d57-8543-afa32052d258" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/clon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsStore/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsStore/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsStore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsStore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsStore/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsStore/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsStore/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsStore/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/RDBMS-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/UnitTesting-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/memb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/memb_4cBqOpf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/memb_WLlnxk8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/memb_cc69yhc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/popcorn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/popcorn_3cOeRQn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/popcorn_j0HoSGu.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/popcorn_m3mNyv2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/popcorn_pOGTSYZ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/Снимок_экрана_от_2018-12-17_20-05-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar/navbar.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,17 +36,84 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoodsStore/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoodsStore/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="37" column="50" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoodsStore/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_site/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-203">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_site/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_site/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#631#663#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'django.contrib.sites'</find>
+      <find>gallery</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,22 +122,68 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/detail_all.html" />
+        <option value="$PROJECT_DIR$/templates/update_article.html" />
+        <option value="$PROJECT_DIR$/templates/update_detail.html" />
+        <option value="$PROJECT_DIR$/templates/article_delete.html" />
+        <option value="$PROJECT_DIR$/templates/django_private_chat/dialogs.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
+        <option value="$PROJECT_DIR$/static/tellme/html2canvas.svg.min.js" />
+        <option value="$PROJECT_DIR$/static/tellme/html2canvas.min.js" />
+        <option value="$PROJECT_DIR$/static/tellme/feedback.min.js" />
+        <option value="$PROJECT_DIR$/static/tellme/feedback.min.css" />
+        <option value="$PROJECT_DIR$/static/tellme/tpl-description.html" />
+        <option value="$PROJECT_DIR$/static/tellme/tpl-highlighter.html" />
+        <option value="$PROJECT_DIR$/static/tellme/tpl-overview.html" />
+        <option value="$PROJECT_DIR$/static/tellme/tpl-submit-error.html" />
+        <option value="$PROJECT_DIR$/static/tellme/tpl-submit-success.html" />
+        <option value="$PROJECT_DIR$/static/tellme/js_inc.html" />
+        <option value="$PROJECT_DIR$/templates/detail.html" />
+        <option value="$PROJECT_DIR$/templates/instagram_user_recent_media.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/form_page.html" />
+        <option value="$PROJECT_DIR$/feedback/feedback_views.py" />
+        <option value="$PROJECT_DIR$/feedback/form.py" />
+        <option value="$PROJECT_DIR$/GoodsStore/forms.py" />
+        <option value="$PROJECT_DIR$/media/photologue/base.html" />
+        <option value="$PROJECT_DIR$/media/photologue/homepage.html" />
+        <option value="$PROJECT_DIR$/media/photologue/root.html" />
+        <option value="$PROJECT_DIR$/my_site/settings.py" />
+        <option value="$PROJECT_DIR$/media/photologue/gallery/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/photologue/gallery/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/static/css/screen.css" />
+        <option value="$PROJECT_DIR$/static/js/project.js" />
+        <option value="$PROJECT_DIR$/static/js/respond.min.js" />
+        <option value="$PROJECT_DIR$/static/js/jquery.js" />
+        <option value="$PROJECT_DIR$/static/js/html5shiv.min.js" />
+        <option value="$PROJECT_DIR$/templates/root.html" />
+        <option value="$PROJECT_DIR$/templates/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/GoodsStore/migrations/0008_migration_with_done.py" />
+        <option value="$PROJECT_DIR$/templates/album.html" />
+        <option value="$PROJECT_DIR$/GoodsStore/views.py" />
+        <option value="$PROJECT_DIR$/GoodsStore/models.py" />
+        <option value="$PROJECT_DIR$/my_site/urls.py" />
+        <option value="$PROJECT_DIR$/GoodsStore/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="160" />
-    <option name="width" value="1063" />
-    <option name="height" value="555" />
+    <option name="x" value="41" />
+    <option name="y" value="25" />
+    <option name="width" value="1325" />
+    <option name="height" value="743" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,14 +191,39 @@
               <item name="clon" type="b2602c69:ProjectViewProjectNode" />
               <item name="clon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="clon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clon" type="462c0819:PsiDirectoryNode" />
+              <item name="my_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clon" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/photologue" />
+      <recent name="$PROJECT_DIR$/media/photologue/photos" />
+      <recent name="$PROJECT_DIR$/media/photologue/gallery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/photologue/gallery" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/photologue/gallery" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,34 +250,295 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_for_GoodsStore_tests_ArticleViewPageTest - 2019.01.04 at 14h 09m 17s.xml">
+      <configuration name="Twisted Trial for GoodsStore.tests.ArticleViewPageTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_GoodsStore_tests_ArticleViewPageTest - 2019.01.04 at 14h 10m 09s.xml">
+      <configuration name="Twisted Trial for GoodsStore.tests.ArticleViewPageTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_GoodsStore_tests_ArticleViewPageTest - 2019.01.04 at 14h 10m 12s.xml">
+      <configuration name="Twisted Trial for GoodsStore.tests.ArticleViewPageTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_GoodsStore_tests_ArticleViewPageTest - 2019.01.04 at 14h 10m 22s.xml">
+      <configuration name="Twisted Trial for GoodsStore.tests.ArticleViewPageTest" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="41" y="25" width="1325" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30179828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3306189" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5423453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Terminal" order="3" weight="0.5121188" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.40344018" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5423453" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.42845973" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/static/tellme/tpl-description.html" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/tpl-overview.html" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/tpl-submit-error.html" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/tpl-submit-success.html" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/feedback.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/html2canvas.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/feedback.min.css" />
+    <entry file="file://$PROJECT_DIR$/static/tellme/js_inc.html" />
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_site/settings_prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="1" selection-start-line="32" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/instagram_user_recent_media.html" />
+    <entry file="file://$PROJECT_DIR$/feedback/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/form_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/apps.py" />
+    <entry file="file://$PROJECT_DIR$/feedback/feedback_views.py" />
+    <entry file="file://$PROJECT_DIR$/feedback/admin.py" />
+    <entry file="file://$PROJECT_DIR$/../Projects/python-cursor/week7/DJANGO/homework/envhw/lib/python3.6/site-packages/django/contrib/sites/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detail_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photologue/gallery/js/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31650" selection-start-line="5" selection-start-column="31650" selection-end-line="5" selection-end-column="31650" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="109353" selection-start-line="4" selection-start-column="109353" selection-end-line="4" selection-end-column="109353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/js/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/js/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4204" selection-start-line="4" selection-start-column="4204" selection-end-line="4" selection-end-column="4204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28898" selection-start-line="5" selection-start-column="28898" selection-end-line="5" selection-end-column="28898" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photologue/gallery/js/html5shiv.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2545" selection-start-line="3" selection-start-column="2545" selection-end-line="3" selection-end-column="2545" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/photologue/photo/cache/CACHEDIR.TAG" />
+    <entry file="file://$PROJECT_DIR$/templates/root.html" />
+    <entry file="file://$PROJECT_DIR$/templates/navbar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0008_migration_with_done.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/album.html" />
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0007_auto_20181218_1339.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0006_auto_20181218_1337.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0005_auto_20181217_1552.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0004_auto_20181217_1543.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0002_auto_20181216_2039.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/migrations/0003_auto_20181216_2334.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlcov/GoodsStore_views_py.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2257" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsStore/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_site/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>

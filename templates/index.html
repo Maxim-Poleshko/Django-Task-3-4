@@ -25,5 +25,24 @@
               We also sell Footwear, Wild Birds Supplies, Kitchenware, Home Living Goods, and much, much more.
           </p></div>
 </div>
+{% load instagram_client %}
+
+<div style="color:orange; padding-top:100px;" class="container">
+    <h3>Instagram media wall</h3>
+    {% instagram_user_recent_media thepapergoodsstore %}
+    {% for media in recent_media %}
+        <div django_instagram_media_wall_item>
+            <a href="//instagram.com/p/{{ media.shortcode }}" target="_blank">
+                <img style="max-width: 180px; float: left;" src="{{ media.thumbnail_src }}"/>
+
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+
+
 
 {% endblock %}
